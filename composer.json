@@ -1,11 +1,23 @@
 {
     "name": "codewithyogeshdev/hello-world-package",
+    "keywords": ["php","catalystpay"],
     "description": "A hello world composer private package.",
+    "require": {
+        "php": ">=7.4"
+    },
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "codewithyogeshdev\\HelloWorldPackage\\": "src/"
         }
     },
+    "authors": [
+        {
+            "name": "Yogesh Vakhre",
+            "email": "support@catalystpay.com"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
